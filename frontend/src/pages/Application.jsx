@@ -1,12 +1,16 @@
 import React from 'react'
+import ApplicationHero from "../components/Application/ApplicationHero";
+import ApplicationSection from "../components/Application/ApplicationSection";
 
-const Application = () => {
+
+function Application() {
   return (
     <div>
-      Application
-       l
+      <ApplicationHero/>
+      <ApplicationSection/>
     </div>
   )
 }
 
 export default Application
+  

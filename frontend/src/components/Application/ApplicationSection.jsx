@@ -1,55 +1,71 @@
 import React from 'react'
 import image1 from '../../assets/image1.jpg'
+import image2 from '../../assets/image2.png'
+import image3 from '../../assets/image3.png'
+
+
 
 
 
 function ApplicationSection() {
     return (
-        <div>
-            <div className='flex flex-col mt-14 ml-14'>
-                <img className='w-96 border-sky-500 rounded-lg' src={image1} alt="Image description" />
-                <h1 className='mt-4'>Description</h1>
-                <div className='flex flex-col  mt-2'>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit.</span>
+        <div className=''>
+            <div class="max-w-md mx-auto bg-white overflow-hidden md:max-w-full">
+                <div class="md:flex mt-8">
+                    <div class="bg-black">
+                        <img className='h-48 w-56 object-cover rounded ml-14  md:h-full md:w-96' src={image1} alt="" />
+                    </div>
+                    <div class="p-9">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+                        <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                        <div className='mt-4'>
+                            <a href="" className='text-blue-500'>Location</a>
+                            <div className='flex justify- items-center'>
+                                <p>P E C H S Foundation</p>
+                                <button className='w-28 font-sans rounded-sm  h-8 bg-blue-500 ml-auto'>Progress</button>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
-                <div className='mt-5'>
-                    <a href="" className='text-blue-500'>Location</a>
-                </div>
-                <button className='flex bg-blue-500 mt-5  w-24'>
-                    In Progress
-                </button>
             </div>
-            <div className='flex flex-col mt-14 ml-14'>
-                <img className='w-96 border-sky-500 rounded-lg' src={image1} alt="Image description" />
-                <h1 className='mt-4'>Description</h1>
-                <div className='flex flex-col mt-2'>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit.</span>
+            <div className="max-w-md mx-auto bg-white overflow-hidden md:max-w-full">
+                <div className="md:flex mt-8">
+                    <div className="md:shrink-0">
+                        <img className='h-44 w-56 object-cover rounded ml-14  md:h-full md:w-96' src={image2} alt="" />
+                    </div>
+                    <div class="p-9">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                        <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+                        <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                        <div className='mt-4'>
+                            <a href="" className='text-blue-500'>Location</a>
+                            <div className='flex justify-between items-center'>
+                                <p>P E C H S Foundation</p>
+                                <button className='w-28 font-sans rounded-sm h-8 bg-blue-500 ml-auto'>Progress</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='mt-4'>
-                    <a href="" className='text-blue-500'>Location</a>
-                </div>
-                <button className='flex bg-blue-500 text-white mt-4 py-2 px-4 rounded'>
-                    In Progress
-                </button>
             </div>
-            <div className='flex flex-col mt-14 ml-14'>
-                <img className='w-96 border-sky-500 rounded-lg' src={image1} alt="Image description" />
-                <h1 className='mt-4'>Description</h1>
-                <div className='flex flex-col mt-2'>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-                    <span>Lorem ipsum dolor sit.</span>
+            <div class="max-w-md mx-auto bg-white overflow-hidden md:max-w-full">
+                <div className="md:flex mt-8">
+                    <div classNmaeName="md:shrink-0">
+                        <img classNameName='h-44 w-56 object-cover rounded   ml-14  md:h-full md:w-96' src={image3} alt="" />
+                    </div>
+                    <div className="p-9">
+                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                        <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+                        <p className="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                        <div classNameName='mt-4'>
+                            <a href="" classNameName='text-blue-500'>Location</a>
+                            <div className='flex justify-between items-center'>
+                                <p>P E C H S Foundation</p>
+                                <button className='w-28 font-sans rounded-sm h-8 bg-blue-500 ml-auto'>Progress</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='mt-4'>
-                    <a href="" className='text-blue-500'>Location</a>
-                </div>
-                <button className='flex bg-blue-500 text-white mt-4 py-2 px-4 rounded'>
-                    In Progress
-                </button>
             </div>
         </div>
     )
@@ -65,45 +81,3 @@ export default ApplicationSection
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import image1 from '../../assets/image1.jpg';
-
-// const Card = () => {
-//   return (
-//     <div className="flex flex-col mt-14 ml-14">
-//       <img className="w-96 border-sky-500 rounded-lg" src={image1} alt="Image description" />
-//       <h1 className="mt-4">Description</h1>
-//       <div className="flex flex-col mt-2">
-//         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-//         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A temporibus corrupti, quod eveniet quo sint vitae! Eos consequatur.</span>
-//         <span>Lorem ipsum dolor sit.</span>
-//       </div>
-//       <div className="mt-4">
-//         <a href="" className="text-blue-500">Location</a>
-//       </div>
-//       <button className="bg-blue-500 text-white mt-4 py-2 px-4 rounded">In Progress</button>
-//     </div>
-//   );
-// };
-
-// function ApplicationSection() {
-//   return (
-//     <div>
-//       <Card />
-//       <Card />
-//     </div>
-//   );
-// }
-
-// export default ApplicationSection;

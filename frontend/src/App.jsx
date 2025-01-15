@@ -9,6 +9,12 @@ import Contact from "./pages/Contact";
    
 
 
+
+
+
+
+
+
 const App = () => {
   return (
     <BrowserRouter>

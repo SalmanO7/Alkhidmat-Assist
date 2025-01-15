@@ -6,6 +6,8 @@ import Application from "./pages/Application";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+   
+
 
 const App = () => {
   return (

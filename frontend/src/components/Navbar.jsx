@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div className="btns absolute top-0 left-[34%] sm:left-[44%] pt-2 md:left-0 flex md:relative  justify-center items-center gap-3">
         <Link
-          to="/"
+          to="/complain" onClick={toggleNavbar}
           className="md:border md:border-[#00529B] md:border-solid  md:font-bold md:px-6 md:py-2 text-[#00529B] bg-white hover:text-white hover:p-1 hover:font-bold  hover:bg-[#00529B] "
         >
           Complain

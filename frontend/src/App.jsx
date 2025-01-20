@@ -6,6 +6,7 @@ import Application from "./pages/Application";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import Complain from "./pages/Complain";
    
 
 
@@ -24,6 +25,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/application" element={<Application />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/complain" element={<Complain />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

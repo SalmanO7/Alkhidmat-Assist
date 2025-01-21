@@ -8,7 +8,7 @@ const Complainhero  = () => {
       style={{ backgroundImage: `url(${BgImg})` }}
     >
       <h1 className="text-white uppercase font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-        Complain
+        Complain 
       </h1>
     </div>
   );
